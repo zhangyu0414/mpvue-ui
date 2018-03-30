@@ -1,1 +1,1 @@
-<import src="../../components/uploader$6585d78d" /><template is="uploader$6585d78d" data="{{ ...$root['0'], $root }}"/>
+<import src="../../components/uploader$21c555fc" /><template is="uploader$21c555fc" data="{{ ...$root['0'], $root }}"/>

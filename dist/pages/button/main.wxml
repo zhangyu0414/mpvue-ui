@@ -1,1 +1,1 @@
-<import src="../../components/button$869d675e" /><template is="button$869d675e" data="{{ ...$root['0'], $root }}"/>
+<import src="../../components/button$3183a306" /><template is="button$3183a306" data="{{ ...$root['0'], $root }}"/>

@@ -1,11 +1,2 @@
 @import "/static/css/vendor.wxss";
-
-.placeholder.data-v-1333dc22 {
-  margin: 10rpx;
-  padding: 0 20rpx;
-  text-align: center;
-  background-color: #ebebeb;
-  height: 2.3em;
-  line-height: 2.3em;
-  color: #cfcfcf;
-}
+.placeholder.data-v-754c9ce5{margin:10rpx;padding:0 20rpx;text-align:center;background-color:#ebebeb;height:2.3em;line-height:2.3em;color:#cfcfcf}

@@ -1,1 +1,1 @@
-<import src="../../components/footer$75bca90c" /><template is="footer$75bca90c" data="{{ ...$root['0'], $root }}"/>
+<import src="../../components/footer$39f4022f" /><template is="footer$39f4022f" data="{{ ...$root['0'], $root }}"/>

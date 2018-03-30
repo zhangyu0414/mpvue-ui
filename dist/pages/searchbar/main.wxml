@@ -1,1 +1,1 @@
-<import src="../../components/searchbar$61abc07c" /><template is="searchbar$61abc07c" data="{{ ...$root['0'], $root }}"/>
+<import src="../../components/searchbar$788250ed" /><template is="searchbar$788250ed" data="{{ ...$root['0'], $root }}"/>

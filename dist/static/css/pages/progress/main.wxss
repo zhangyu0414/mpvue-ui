@@ -1,5 +1,2 @@
 @import "/static/css/vendor.wxss";
-
-.weui-progress.data-v-298bc4ba {
-  margin-bottom: 48rpx;
-}
+.weui-progress.data-v-2d563d99{margin-bottom:48rpx}

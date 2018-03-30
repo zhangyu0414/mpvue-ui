@@ -1,4 +1,4 @@
-# mt-mpvue-demo
+# mt-mpvue-demo 版本为3.30构建，后续更新请follow https://github.com/KuangPF/mpvue-weui/commits/master
 
 > A Mpvue project
 

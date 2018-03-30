@@ -1,1 +1,1 @@
-<import src="../../components/badge$5b3cddfa" /><template is="badge$5b3cddfa" data="{{ ...$root['0'], $root }}"/>
+<import src="../../components/badge$7bcb46b6" /><template is="badge$7bcb46b6" data="{{ ...$root['0'], $root }}"/>
