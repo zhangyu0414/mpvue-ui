@@ -1,0 +1,13 @@
+<template name="actionsheet$1e5206c0">
+  <view class="_div data-v-e2e8536e page">
+    <view class="_div data-v-e2e8536e page__hd">
+      <view class="_div data-v-e2e8536e page__title">ActionSheet</view>
+      <view class="_div data-v-e2e8536e page__desc">弹出式菜单，采用小程序原生的actionsheet</view>
+    </view>
+    <view class="_div data-v-e2e8536e page__bd">
+      <view class="_div data-v-e2e8536e weui-btn-area">
+        <button type="default" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-e2e8536e">ActionSheet</button>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,18 @@
+<template name="grid$4873f865">
+  <view class="_div data-v-2782be08 page">
+    <view class="_div data-v-2782be08 page__hd">
+      <view class="_div data-v-2782be08 page__title">Grid</view>
+      <view class="_div data-v-2782be08 page__desc">九宫格</view>
+    </view>
+    <view class="_div data-v-2782be08 page__bd">
+      <view class="_div data-v-2782be08 weui-grids">
+        <block wx:key="index" key="{{index}}" wx:for="{{grids}}" wx:for-index="index" wx:for-item="item">
+          <navigator url class="_navigator data-v-2782be08 weui-grid" hover-class="weui-grid_active">
+            <image class="_image data-v-2782be08 weui-grid__icon" src="{{item.src}}"></image>
+            <view class="_div data-v-2782be08 weui-grid__label">{{item.name}}</view>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </view>
+</template>

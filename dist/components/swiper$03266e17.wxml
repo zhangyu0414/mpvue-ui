@@ -1,0 +1,17 @@
+<template name="swiper$03266e17">
+  <view class="_div data-v-422d6624 page">
+    <view class="_view data-v-422d6624 page__hd">
+      <view class="_view data-v-422d6624 page__title">Swiper</view>
+      <view class="_view data-v-422d6624 page__desc">滑块视图容器，这里采用小程序原生 swiper 组件实现。</view>
+    </view>
+    <view class="_div data-v-422d6624 page__bd page__bd_spacing">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" bindchange="handleProxy" bindanimationfinish="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_swiper data-v-422d6624">
+        <view wx:key="index" key="{{index}}" wx:for="{{imgUrls}}" wx:for-index="index" wx:for-item="item" class="_div data-v-422d6624">
+          <swiper-item class="_swiper-item data-v-422d6624">
+            <image src="{{item}}" class="_image data-v-422d6624 slide-image"></image>
+          </swiper-item>
+        </view>
+      </swiper>
+    </view>
+  </view>
+</template>

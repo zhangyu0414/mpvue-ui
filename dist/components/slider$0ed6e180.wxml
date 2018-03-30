@@ -1,0 +1,12 @@
+<template name="slider$0ed6e180">
+  <view class="_div data-v-575123d2 page">
+    <view class="_div data-v-575123d2 page__hd">
+      <view class="_div data-v-575123d2 page__title">Slider</view>
+      <view class="_div data-v-575123d2 page__desc">滑块，这里采用小程序原生的slider。</view>
+    </view>
+    <view class="_div data-v-575123d2 page__bd page__bd_spacing">
+      <slider bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_slider data-v-575123d2" />
+      <slider show-value value="50" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_slider data-v-575123d2" />
+    </view>
+  </view>
+</template>

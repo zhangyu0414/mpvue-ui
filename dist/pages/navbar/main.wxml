@@ -1,0 +1,1 @@
+<import src="../../components/navbar$30c443af" /><template is="navbar$30c443af" data="{{ ...$root['0'], $root }}"/>

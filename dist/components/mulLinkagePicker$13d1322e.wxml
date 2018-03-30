@@ -1,0 +1,20 @@
+<template name="mulLinkagePicker$13d1322e">
+  <view class="_div data-v-0428b045 page">
+    <view bindtap="handleProxy" catchtouchmove="true" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_div data-v-0428b045 {{[isShowMask ? 'pickerMask' : '']}}"></view>
+    <button type="default" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-0428b045">多级联动选择</button>
+    <view class="_div data-v-0428b045 weui-picker {{[pickerShow ? 'weui_picker_view_show' : '']}}">
+      <view class="_div data-v-0428b045 weui-picker__hd">
+        <view url="javascript:;" class="_div data-v-0428b045 weui-picker__action" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">取消</view>
+        <view url="javascript:;" class="_div data-v-0428b045 weui-picker__action" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+      <picker-view indicator-style="height: 40px;" value="{{pickerValue}}" class="_picker-view data-v-0428b045 weui_picker_view" bindchange="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">
+        <picker-view-column class="_picker-view-column data-v-0428b045">
+          <view class="_div data-v-0428b045 picker-item" wx:key="index" key="{{index}}" wx:for="{{columuOne}}" wx:for-index="index" wx:for-item="item">{{item}}</view>
+        </picker-view-column>
+        <picker-view-column class="_picker-view-column data-v-0428b045">
+          <view class="_div data-v-0428b045 picker-item" wx:key="index" key="{{index}}" wx:for="{{columnTwo}}" wx:for-index="index" wx:for-item="item">{{item}}</view>
+        </picker-view-column>
+      </picker-view>
+    </view>
+  </view>
+</template>

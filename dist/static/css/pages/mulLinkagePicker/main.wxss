@@ -1,0 +1,72 @@
+@import "/static/css/vendor.wxss";
+
+page {
+  margin-top: 200rpx;
+  position: relative;
+}
+.weui-picker {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  transform: translateY(100%);
+  z-index: 3000;
+}
+.weui_picker_view {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 476rpx;
+  background-color: rgba(255, 255, 255, 1);
+}
+.weui-picker__hd {
+  display: flex;
+  padding: 18rpx 30rpx;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 34rpx;
+}
+.weui-picker__action {
+  display: block;
+  flex: 1;
+  color: #1aad19;
+  cursor: pointer;
+}
+.weui-picker__action:first-child {
+  text-align: left;
+  color: #888;
+}
+.weui-picker__action:last-child {
+  text-align: right;
+}
+.weui-picker__hd:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 2rpx;
+  border-bottom: 2rpx solid #e5e5e5;
+  color: #e5e5e5;
+  transform-origin: 0 100%;
+  transform: scaleY(0.5);
+}
+.weui_picker_view_show {
+  transform: translateY(0);
+}
+.picker-item {
+  text-align: center;
+  line-height: 80rpx;
+}
+.pickerMask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}

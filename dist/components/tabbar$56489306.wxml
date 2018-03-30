@@ -1,0 +1,8 @@
+<template name="tabbar$56489306">
+  <view class="_div data-v-9ec2d558 page">
+    <view class="_view data-v-9ec2d558 page__hd">
+      <view class="_view data-v-9ec2d558 page__title">Tabbar</view>
+      <view class="_view data-v-9ec2d558 page__desc">底部导航，建议采用小程序原生的tabbar，通过设置page/main.js（即对应小程序中app.json）来实现。详情请看小程序文档。</view>
+    </view>
+  </view>
+</template>
