@@ -4,6 +4,12 @@ import store from './store'
 import './css/app.css'
 Vue.config.productionTip = false
 App.mpType = 'app'
+// import MpvueRouterPatch from 'mpvue-router-patch'
+// var Fly = require('flyio/dist/npm/wx')
+// var fly = new Fly()
+
+// Vue.prototype.$http = fly // 将fly实例挂在vue原型上
+// Vue.use(MpvueRouterPatch)
 
 Vue.prototype.$store = store
 import '../static/weui/weui.css'
@@ -16,8 +22,8 @@ export default {
     // 页面前带有 ^ 符号的，会被编译成首页，其他页面可以选填，我们会自动把 webpack entry 里面的入口页面加进去
     pages: [
       'pages/logs/main',
-      '^pages/indexx/main',
-      'pages/index/main',
+      'pages/indexx/main',
+      '^pages/index/main',
       'pages/button/main',
       'pages/list/main',
       'pages/input/main',
@@ -66,7 +72,7 @@ export default {
       borderStyle: 'white',
       list: [
         {
-          pagePath: 'pages/indexx/main',
+          pagePath: 'pages/index/main',
           text: '微信',
           iconPath: 'static/images/icon_nav_button.png',
           selectedIconPath: 'static/images/icon_nav_button.png'
@@ -78,7 +84,7 @@ export default {
           selectedIconPath: 'static/images/icon_nav_cell.png'
         },
         {
-          pagePath: 'pages/actionsheet/main',
+          pagePath: 'pages/dialog/main',
           text: '发现',
           iconPath: 'static/images/icon_nav_cell.png',
           selectedIconPath: 'static/images/icon_nav_cell.png'

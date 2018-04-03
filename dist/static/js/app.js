@@ -1,24 +1,76 @@
 global.webpackJsonp([1],{
 
-/***/ 143:
+/***/ 121:
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 122:
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 123:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutation_types__ = __webpack_require__(26);
+
+
+var _TEST$USER_INFO;
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (_TEST$USER_INFO = {}, __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default()(_TEST$USER_INFO, __WEBPACK_IMPORTED_MODULE_1__mutation_types__["a" /* TEST */], function (state, v) {
+  state.test = v;
+}), __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default()(_TEST$USER_INFO, __WEBPACK_IMPORTED_MODULE_1__mutation_types__["b" /* USER_INFO */], function (state, v) {
+  state.userInfo = v;
+}), _TEST$USER_INFO);
+
+/***/ }),
+
+/***/ 125:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  created: function created() {
+    // 调用API从本地缓存中获取数据
+    var logs = wx.getStorageSync('logs') || [];
+    logs.unshift(Date.now());
+    wx.setStorageSync('logs', logs);
+    console.log('app created and cache logs by setStorageSync');
+  }
+});
+
+/***/ }),
+
+/***/ 172:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 18:
+/***/ 46:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuex__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuex_persistedstate__ = __webpack_require__(238);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mutations__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__action__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuex__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vuex_persistedstate__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mutations__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__action__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__action___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__action__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__getters__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__getters__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__getters___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__getters__);
 
 
@@ -57,29 +109,29 @@ var state = {
 
 /***/ }),
 
-/***/ 19:
+/***/ 47:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 20:
+/***/ 48:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 21:
+/***/ 49:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(125);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(143)
+  __webpack_require__(172)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -123,18 +175,18 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 56:
+/***/ 85:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__store__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_app_css__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__store__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_app_css__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_app_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__css_app_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_weui_weui_css__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_weui_weui_css__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_weui_weui_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__static_weui_weui_css__);
 
 
@@ -142,6 +194,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.config.productionTip = false;
 __WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */].mpType = 'app';
+// import MpvueRouterPatch from 'mpvue-router-patch'
+// var Fly = require('flyio/dist/npm/wx')
+// var fly = new Fly()
+
+// Vue.prototype.$http = fly // 将fly实例挂在vue原型上
+// Vue.use(MpvueRouterPatch)
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.prototype.$store = __WEBPACK_IMPORTED_MODULE_2__store__["a" /* default */];
 
@@ -152,7 +210,7 @@ app.$mount();
   // 这个字段走 app.json
   config: {
     // 页面前带有 ^ 符号的，会被编译成首页，其他页面可以选填，我们会自动把 webpack entry 里面的入口页面加进去
-    pages: ['pages/logs/main', '^pages/indexx/main', 'pages/index/main', 'pages/button/main', 'pages/list/main', 'pages/input/main', 'pages/slider/main', 'pages/uploader/main', 'pages/article/main', 'pages/badge/main', 'pages/flex/main', 'pages/footer/main', 'pages/gallery/main', 'pages/grid/main', 'pages/icons/main', 'pages/loadmore/main', 'pages/panel/main', 'pages/preview/main', 'pages/progress/main', 'pages/swiper/main', 'pages/actionsheet/main', 'pages/dialog/main', 'pages/msg/main', 'pages/msg-fail/main', 'pages/msg-success/main', 'pages/picker/main', 'pages/mulLinkagePicker/main', 'pages/toast/main', 'pages/navbar/main', 'pages/tabbar/main', 'pages/searchbar/main', 'pages/test/main', 'pages/componentsTest/main'],
+    pages: ['pages/logs/main', 'pages/indexx/main', '^pages/index/main', 'pages/button/main', 'pages/list/main', 'pages/input/main', 'pages/slider/main', 'pages/uploader/main', 'pages/article/main', 'pages/badge/main', 'pages/flex/main', 'pages/footer/main', 'pages/gallery/main', 'pages/grid/main', 'pages/icons/main', 'pages/loadmore/main', 'pages/panel/main', 'pages/preview/main', 'pages/progress/main', 'pages/swiper/main', 'pages/actionsheet/main', 'pages/dialog/main', 'pages/msg/main', 'pages/msg-fail/main', 'pages/msg-success/main', 'pages/picker/main', 'pages/mulLinkagePicker/main', 'pages/toast/main', 'pages/navbar/main', 'pages/tabbar/main', 'pages/searchbar/main', 'pages/test/main', 'pages/componentsTest/main'],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
@@ -165,7 +223,7 @@ app.$mount();
       backgroundColor: '#ffffff',
       borderStyle: 'white',
       list: [{
-        pagePath: 'pages/indexx/main',
+        pagePath: 'pages/index/main',
         text: '微信',
         iconPath: 'static/images/icon_nav_button.png',
         selectedIconPath: 'static/images/icon_nav_button.png'
@@ -175,7 +233,7 @@ app.$mount();
         iconPath: 'static/images/icon_nav_cell.png',
         selectedIconPath: 'static/images/icon_nav_cell.png'
       }, {
-        pagePath: 'pages/actionsheet/main',
+        pagePath: 'pages/dialog/main',
         text: '发现',
         iconPath: 'static/images/icon_nav_cell.png',
         selectedIconPath: 'static/images/icon_nav_cell.png'
@@ -189,60 +247,7 @@ app.$mount();
   }
 });
 
-/***/ }),
-
-/***/ 92:
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 93:
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 94:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutation_types__ = __webpack_require__(8);
-
-
-var _TEST$USER_INFO;
-
-
-
-/* harmony default export */ __webpack_exports__["a"] = (_TEST$USER_INFO = {}, __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default()(_TEST$USER_INFO, __WEBPACK_IMPORTED_MODULE_1__mutation_types__["a" /* TEST */], function (state, v) {
-  state.test = v;
-}), __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default()(_TEST$USER_INFO, __WEBPACK_IMPORTED_MODULE_1__mutation_types__["b" /* USER_INFO */], function (state, v) {
-  state.userInfo = v;
-}), _TEST$USER_INFO);
-
-/***/ }),
-
-/***/ 96:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  created: function created() {
-    // 调用API从本地缓存中获取数据
-    var logs = wx.getStorageSync('logs') || [];
-    logs.unshift(Date.now());
-    wx.setStorageSync('logs', logs);
-    console.log(111);
-    console.log('app created and cache logs by setStorageSync');
-  }
-});
-
 /***/ })
 
-},[56]);
+},[85]);
 //# sourceMappingURL=app.js.map

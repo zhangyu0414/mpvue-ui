@@ -11,7 +11,8 @@ var express = require('express')
 var webpack = require('webpack')
 var proxyMiddleware = require('http-proxy-middleware')
 var webpackConfig = require('./webpack.dev.conf')
-
+// var Fly = require('flyio/dist/npm/wx')
+// var fly = new Fly()
 // default port where dev server listens for incoming traffic
 var port = process.env.PORT || config.dev.port
 // automatically open browser, if not set will be false
@@ -21,6 +22,26 @@ var autoOpenBrowser = !!config.dev.autoOpenBrowser
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+// var apiRoutes = express.Router()
+// fly.interceptors.request.use((config, promise) => {
+//   // 给所有请求添加自定义header
+//   config.headers['referer'] = 'http://c.y.qq.com'
+//   config.headers['host'] = 'c.y.qq.com'
+//   return config
+// })
+// apiRoutes.get('/getDiscList', function (req, res) {
+//   var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
+
+//   fly.get(url, req.query
+//   ).then((response) => {
+//     res.json(response.data)
+//   }).catch((err) => {
+//     console.log(err)
+//   })
+// })
+
+// app.use('/api', apiRoutes)
+
 var compiler = webpack(webpackConfig)
 
 // var devMiddleware = require('webpack-dev-middleware')(compiler, {
@@ -61,6 +82,7 @@ app.use(require('connect-history-api-fallback')())
 
 // serve pure static assets
 var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory)
+
 app.use(staticPath, express.static('./static'))
 
 var uri = 'http://localhost:' + port

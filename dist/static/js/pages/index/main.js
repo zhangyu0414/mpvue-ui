@@ -1,10 +1,12 @@
-global.webpackJsonp([25],{
+global.webpackJsonp([3],{
 
-/***/ 111:
+/***/ 140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_card__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_card__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__api_recommend__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__api_config__ = __webpack_require__(25);
 //
 //
 //
@@ -32,11 +34,16 @@ global.webpackJsonp([25],{
 
 
 
+
+
+// import {ERR_OK} from '@/api/config'
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
     return {
       motto: 'Hello World',
-      userInfo: {}
+      userInfo: {},
+      recommends: [],
+      discList: []
     };
   },
 
@@ -46,19 +53,30 @@ global.webpackJsonp([25],{
   },
 
   methods: {
+    _getDiscList: function _getDiscList() {
+      var _this = this;
+
+      // 数据请求示例
+      __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__api_recommend__["a" /* getDiscList */])().then(function (res) {
+        console.log(res);
+        if (res.code === __WEBPACK_IMPORTED_MODULE_2__api_config__["a" /* ERR_OK */]) {
+          _this.discList = res.data.list;
+        }
+      });
+    },
     bindViewTap: function bindViewTap() {
       var url = '../logs/main';
       wx.navigateTo({ url: url });
     },
     getUserInfo: function getUserInfo() {
-      var _this = this;
+      var _this2 = this;
 
       // 调用登录接口
       wx.login({
         success: function success() {
           wx.getUserInfo({
             success: function success(res) {
-              _this.userInfo = res.userInfo;
+              _this2.userInfo = res.userInfo;
             }
           });
         }
@@ -70,6 +88,7 @@ global.webpackJsonp([25],{
   },
 
   created: function created() {
+    this._getDiscList();
     // 调用应用实例的方法获取全局数据
     this.getUserInfo();
   }
@@ -77,14 +96,14 @@ global.webpackJsonp([25],{
 
 /***/ }),
 
-/***/ 159:
+/***/ 188:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 196:
+/***/ 225:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -197,16 +216,40 @@ if (false) {
 
 /***/ }),
 
-/***/ 34:
+/***/ 25:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_template_compiler_index_id_data_v_798b3a7c_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(196);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return commonParams; });
+/* unused harmony export options */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ERR_OK; });
+var commonParams = {
+  g_tk: 67232076,
+  inCharset: 'utf-8',
+  outCharset: 'utf-8',
+  notice: 0,
+  format: 'jsonp'
+};
+
+var options = {
+  param: 'jsonpCallback',
+  prefix: 'jp'
+};
+
+var ERR_OK = 0;
+
+/***/ }),
+
+/***/ 62:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_template_compiler_index_id_data_v_798b3a7c_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(225);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(159)
+  __webpack_require__(188)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -251,14 +294,103 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 70:
+/***/ 84:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = getDiscList;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_promise__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_promise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_promise__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_flyio__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_flyio___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_flyio__);
+
+
+// import jsonp from '@/common/js/jsonp'
+
+
+
+var request = new __WEBPACK_IMPORTED_MODULE_3_flyio___default.a();
+
+// import axios from 'axios'
+
+// export function getRecommend () {
+//   const url = 'https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg'
+
+//   const data = Object.assign({}, commonParams, {
+//     platform: 'h5',
+//     uin: 0,
+//     needNewCode: 1
+//   })
+//   return jsonp(url, data, options)
+// }
+
+function getDiscList() {
+  var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg';
+
+  var data = __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign___default()({}, __WEBPACK_IMPORTED_MODULE_2__config__["b" /* commonParams */], {
+    platform: 'yqq',
+    hostUin: 0,
+    sin: 0,
+    ein: 29,
+    sortId: 5,
+    needNewCode: 0,
+    categoryId: 10000000,
+    rnd: Math.random(),
+    format: 'json'
+  });
+  return request.get(url, data).then(function (d) {
+    // 输出请求数据
+    console.log(d.data);
+    // 输出响应头
+    console.log(d.header);
+    return __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_promise___default.a.resolve(d.data);
+  });
+  // axios.get(url, {
+  //   params: data
+  // }).then((res) => {
+
+  // })
+}
+
+// export function getSongList (disstid) {
+//   const url = '/api/getSongList'
+
+//   const data = Object.assign({}, commonParams, {
+//     disstid,
+//     uin: 0,
+//     type: 1,
+//     json: 1,
+//     platform: 'h5',
+//     utf8: 1,
+//     onlysong: 0,
+//     nosign: 1,
+//     needNewCode: 1,
+//     _: 1499739323697,
+//     pic: 500,
+//     new_format: 1,
+//     format: 'json'
+//   })
+
+//   return axios.get(url, {
+//     params: data
+//   }).then((res) => {
+//     return Promise.resolve(res.data)
+//   })
+// }
+
+/***/ }),
+
+/***/ 99:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(62);
 
 
 
@@ -267,5 +399,5 @@ app.$mount();
 
 /***/ })
 
-},[70]);
+},[99]);
 //# sourceMappingURL=main.js.map

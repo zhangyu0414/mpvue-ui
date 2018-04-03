@@ -1,3 +1,0 @@
-<template name="button$b859c032">
-  <button class="_button data-v-3ad3417e weui-btn" type="{{type}}" disabled="{{disabled}}" plain="{{plain}}">{{btnMsg}}</button>
-</template>

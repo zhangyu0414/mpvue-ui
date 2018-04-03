@@ -1,6 +1,0 @@
-<import src="button$b859c032" />
-<template name="componentsTest$66d29e67">
-  <view class="_div data-v-3e50b63e page">
-    <template type="primary" btnMsg="自定义文字" plain data="{{...$root[$kk+'0'], $root}}" is="button$b859c032"></template>
-  </view>
-</template>

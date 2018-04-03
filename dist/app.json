@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/indexx/main",
+    "pages/index/main",
     "pages/actionsheet/main",
     "pages/article/main",
     "pages/badge/main",
@@ -13,7 +13,7 @@
     "pages/gallery/main",
     "pages/grid/main",
     "pages/icons/main",
-    "pages/index/main",
+    "pages/indexx/main",
     "pages/input/main",
     "pages/list/main",
     "pages/loadmore/main",
@@ -48,7 +48,7 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/indexx/main",
+        "pagePath": "pages/index/main",
         "text": "微信",
         "iconPath": "static/images/icon_nav_button.png",
         "selectedIconPath": "static/images/icon_nav_button.png"
@@ -60,7 +60,7 @@
         "selectedIconPath": "static/images/icon_nav_cell.png"
       },
       {
-        "pagePath": "pages/actionsheet/main",
+        "pagePath": "pages/dialog/main",
         "text": "发现",
         "iconPath": "static/images/icon_nav_cell.png",
         "selectedIconPath": "static/images/icon_nav_cell.png"

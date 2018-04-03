@@ -24,12 +24,17 @@
 
 <script>
 import card from '@/components/card'
+import {getDiscList} from '@/api/recommend'
+import {ERR_OK} from '@/api/config'
 
+// import {ERR_OK} from '@/api/config'
 export default {
   data () {
     return {
       motto: 'Hello World',
-      userInfo: {}
+      userInfo: {},
+      recommends: [],
+      discList: []
     }
   },
 
@@ -38,6 +43,15 @@ export default {
   },
 
   methods: {
+    _getDiscList () {
+      // 数据请求示例
+      getDiscList().then((res) => {
+        console.log(res)
+        if (res.code === ERR_OK) {
+          this.discList = res.data.list
+        }
+      })
+    },
     bindViewTap () {
       const url = '../logs/main'
       wx.navigateTo({ url })
@@ -60,6 +74,7 @@ export default {
   },
 
   created () {
+    this._getDiscList()
     // 调用应用实例的方法获取全局数据
     this.getUserInfo()
   }

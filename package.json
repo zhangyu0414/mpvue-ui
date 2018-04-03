@@ -11,6 +11,9 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "better-scroll": "^1.9.1",
+    "flyio": "^0.4.5",
+    "jsonp": "^0.2.1",
     "mpvue": "^1.0.7",
     "vuex": "^2.3.1",
     "vuex-persistedstate": "^2.5.1"
@@ -57,6 +60,8 @@
     "rimraf": "^2.6.0",
     "url-loader": "^0.5.8",
     "vue-style-loader": "^3.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "webpack": "^2.6.1",
     "webpack-dev-middleware-hard-disk": "^1.10.0",
     "webpack-merge": "^4.1.0",
