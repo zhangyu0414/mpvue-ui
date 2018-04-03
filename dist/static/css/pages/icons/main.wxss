@@ -1,2 +1,30 @@
 @import "/static/css/vendor.wxss";
-icon.data-v-616c2ac4{margin-right:26rpx}.page__bd.data-v-616c2ac4{padding-left:80rpx;padding-right:80rpx;text-align:left}.icon-box.data-v-616c2ac4{margin-bottom:50rpx;display:flex;align-items:center}.icon-box__ctn.data-v-616c2ac4{flex-shrink:100}.icon-box__title.data-v-616c2ac4{font-size:40rpx}.icon-box__desc.data-v-616c2ac4{margin-top:12rpx;font-size:24rpx;color:#888}.icon_sp_area.data-v-616c2ac4{margin-top:20rpx;text-align:left}
+
+icon.data-v-616c2ac4 {
+  margin-right: 26rpx;
+}
+.page__bd.data-v-616c2ac4 {
+  padding-left: 80rpx;
+  padding-right: 80rpx;
+  text-align: left;
+}
+.icon-box.data-v-616c2ac4 {
+  margin-bottom: 50rpx;
+  display: flex;
+  align-items: center;
+}
+.icon-box__ctn.data-v-616c2ac4 {
+  flex-shrink: 100;
+}
+.icon-box__title.data-v-616c2ac4 {
+  font-size: 40rpx;
+}
+.icon-box__desc.data-v-616c2ac4 {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: #888888;
+}
+.icon_sp_area.data-v-616c2ac4 {
+  margin-top: 20rpx;
+  text-align: left;
+}

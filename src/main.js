@@ -15,7 +15,8 @@ export default {
   config: {
     // 页面前带有 ^ 符号的，会被编译成首页，其他页面可以选填，我们会自动把 webpack entry 里面的入口页面加进去
     pages: [
-      'pages/logs/main', '^pages/indexx/main',
+      'pages/logs/main',
+      '^pages/indexx/main',
       'pages/index/main',
       'pages/button/main',
       'pages/list/main',
@@ -65,25 +66,25 @@ export default {
       borderStyle: 'white',
       list: [
         {
-          pagePath: 'pages/tabbar/main',
+          pagePath: 'pages/indexx/main',
           text: '微信',
           iconPath: 'static/images/icon_nav_button.png',
           selectedIconPath: 'static/images/icon_nav_button.png'
         },
         {
-          pagePath: 'pages/tabbar/main',
+          pagePath: 'pages/searchbar/main',
           text: '通讯录',
           iconPath: 'static/images/icon_nav_cell.png',
           selectedIconPath: 'static/images/icon_nav_cell.png'
         },
         {
-          pagePath: 'pages/tabbar/main',
+          pagePath: 'pages/actionsheet/main',
           text: '发现',
           iconPath: 'static/images/icon_nav_cell.png',
           selectedIconPath: 'static/images/icon_nav_cell.png'
         },
         {
-          pagePath: 'pages/tabbar/main',
+          pagePath: 'pages/picker/main',
           text: '我',
           iconPath: 'static/images/icon_nav_toast.png',
           selectedIconPath: 'static/images/icon_nav_toast.png'

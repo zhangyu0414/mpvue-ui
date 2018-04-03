@@ -48,25 +48,25 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/tabbar/main",
+        "pagePath": "pages/indexx/main",
         "text": "微信",
         "iconPath": "static/images/icon_nav_button.png",
         "selectedIconPath": "static/images/icon_nav_button.png"
       },
       {
-        "pagePath": "pages/tabbar/main",
+        "pagePath": "pages/searchbar/main",
         "text": "通讯录",
         "iconPath": "static/images/icon_nav_cell.png",
         "selectedIconPath": "static/images/icon_nav_cell.png"
       },
       {
-        "pagePath": "pages/tabbar/main",
+        "pagePath": "pages/actionsheet/main",
         "text": "发现",
         "iconPath": "static/images/icon_nav_cell.png",
         "selectedIconPath": "static/images/icon_nav_cell.png"
       },
       {
-        "pagePath": "pages/tabbar/main",
+        "pagePath": "pages/picker/main",
         "text": "我",
         "iconPath": "static/images/icon_nav_toast.png",
         "selectedIconPath": "static/images/icon_nav_toast.png"

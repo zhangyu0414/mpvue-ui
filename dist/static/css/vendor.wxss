@@ -1,1 +1,4 @@
-.card{padding:20rpx}
+
+.card {
+  padding: 20rpx;
+}

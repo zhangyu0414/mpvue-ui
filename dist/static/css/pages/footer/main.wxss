@@ -1,2 +1,8 @@
 @import "/static/css/vendor.wxss";
-.weui-footer.data-v-00542fc7{margin-bottom:100rpx}.weui-footer_fixed-bottom.data-v-00542fc7{margin-bottom:0}
+
+.weui-footer.data-v-00542fc7 {
+  margin-bottom: 100rpx;
+}
+.weui-footer_fixed-bottom.data-v-00542fc7 {
+  margin-bottom: 0;
+}

@@ -1,1 +1,270 @@
-global.webpackJsonp([14],{"0Nov":function(e,i,t){"use strict";var s=function(){var e=this,i=e.$createElement,t=e._self._c||i;return t("div",{staticClass:"page"},[e._m(0),e._v(" "),t("div",{staticClass:"page__bd"},[t("div",{staticClass:"weui-form-preview"},[e._m(1),e._v(" "),e._m(2),e._v(" "),t("div",{staticClass:"weui-form-preview__ft"},[t("navigator",{staticClass:"weui-form-preview__btn weui-form-preview__btn_primary",attrs:{url:"","hover-class":"weui-form-preview__btn_active"}},[e._v("操作")])],1)]),e._v(" "),t("div",{staticClass:"weui-form-preview"},[e._m(3),e._v(" "),e._m(4),e._v(" "),t("div",{staticClass:"weui-form-preview__ft"},[t("navigator",{staticClass:"weui-form-preview__btn weui-form-preview__btn_default",attrs:{"hover-class":"weui-form-preview__btn_active",url:""}},[e._v("辅助操作")]),e._v(" "),t("navigator",{staticClass:"weui-form-preview__btn weui-form-preview__btn_primary",attrs:{"hover-class":"weui-form-preview__btn_active",url:""}},[e._v("操作")])],1)])])])},_=[function(){var e=this,i=e.$createElement,t=e._self._c||i;return t("div",{staticClass:"page__hd"},[t("div",{staticClass:"page__title"},[e._v("Preview")]),e._v(" "),t("div",{staticClass:"page__desc"},[e._v("表单预览")])])},function(){var e=this,i=e.$createElement,t=e._self._c||i;return t("div",{staticClass:"weui-form-preview__hd"},[t("div",{staticClass:"weui-form-preview__item"},[t("div",{staticClass:"weui-form-preview__label"},[e._v("付款金额")]),e._v(" "),t("div",{staticClass:"weui-form-preview__value_in-hd"},[e._v("¥2400.00")])])])},function(){var e=this,i=e.$createElement,t=e._self._c||i;return t("div",{staticClass:"weui-form-preview__bd"},[t("div",{staticClass:"weui-form-preview__item"},[t("div",{staticClass:"weui-form-preview__label"},[e._v("商品")]),e._v(" "),t("div",{staticClass:"weui-form-preview__value"},[e._v("电动打蛋机")])]),e._v(" "),t("div",{staticClass:"weui-form-preview__item"},[t("div",{staticClass:"weui-form-preview__label"},[e._v("标题标题")]),e._v(" "),t("div",{staticClass:"weui-form-preview__value"},[e._v("名字名字名字")])]),e._v(" "),t("div",{staticClass:"weui-form-preview__item"},[t("div",{staticClass:"weui-form-preview__label"},[e._v("标题标题")]),e._v(" "),t("div",{staticClass:"weui-form-preview__value"},[e._v("很长很长的名字很长很长的名字很长很长的名字很长很长的名字很长很长的名字")])])])},function(){var e=this,i=e.$createElement,t=e._self._c||i;return t("div",{staticClass:"weui-form-preview__hd"},[t("div",{staticClass:"weui-form-preview__label"},[e._v("付款金额")]),e._v(" "),t("div",{staticClass:"weui-form-preview__value_in-hd"},[e._v("¥2400.00")])])},function(){var e=this,i=e.$createElement,t=e._self._c||i;return t("div",{staticClass:"weui-form-preview__bd"},[t("div",{staticClass:"weui-form-preview__item"},[t("div",{staticClass:"weui-form-preview__label"},[e._v("商品")]),e._v(" "),t("div",{staticClass:"weui-form-preview__value"},[e._v("电动打蛋机")])]),e._v(" "),t("div",{staticClass:"weui-form-preview__item"},[t("div",{staticClass:"weui-form-preview__label"},[e._v("标题标题")]),e._v(" "),t("div",{staticClass:"weui-form-preview__value"},[e._v("名字名字名字")])]),e._v(" "),t("div",{staticClass:"weui-form-preview__item"},[t("div",{staticClass:"weui-form-preview__label"},[e._v("标题标题")]),e._v(" "),t("div",{staticClass:"weui-form-preview__value"},[e._v("很长很长的名字很长很长的名字很长很长的名字很长很长的名字很长很长的名字")])])])}],v={render:s,staticRenderFns:_};i.a=v},"4I4i":function(e,i){},"5B52":function(e,i,t){"use strict";i.a={}},"8uvu":function(e,i,t){"use strict";Object.defineProperty(i,"__esModule",{value:!0});var s=t("5nAL"),_=t.n(s),v=t("eK1Z");new _.a(v.a).$mount()},eK1Z:function(e,i,t){"use strict";function s(e){t("4I4i")}var _=t("5B52"),v=t("0Nov"),a=t("huui"),r=s,l=a(_.a,v.a,r,"data-v-67039b9c",null);i.a=l.exports}},["8uvu"]);
+global.webpackJsonp([14],{
+
+/***/ 124:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["a"] = ({});
+
+/***/ }),
+
+/***/ 154:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 191:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "page"
+  }, [_vm._m(0), _vm._v(" "), _c('div', {
+    staticClass: "page__bd"
+  }, [_c('div', {
+    staticClass: "weui-form-preview"
+  }, [_vm._m(1), _vm._v(" "), _vm._m(2), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__ft"
+  }, [_c('navigator', {
+    staticClass: "weui-form-preview__btn weui-form-preview__btn_primary",
+    attrs: {
+      "url": "",
+      "hover-class": "weui-form-preview__btn_active"
+    }
+  }, [_vm._v("操作")])], 1)]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview"
+  }, [_vm._m(3), _vm._v(" "), _vm._m(4), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__ft"
+  }, [_c('navigator', {
+    staticClass: "weui-form-preview__btn weui-form-preview__btn_default",
+    attrs: {
+      "hover-class": "weui-form-preview__btn_active",
+      "url": ""
+    }
+  }, [_vm._v("辅助操作")]), _vm._v(" "), _c('navigator', {
+    staticClass: "weui-form-preview__btn weui-form-preview__btn_primary",
+    attrs: {
+      "hover-class": "weui-form-preview__btn_active",
+      "url": ""
+    }
+  }, [_vm._v("操作")])], 1)])])])
+}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "page__hd"
+  }, [_c('div', {
+    staticClass: "page__title"
+  }, [_vm._v("Preview")]), _vm._v(" "), _c('div', {
+    staticClass: "page__desc"
+  }, [_vm._v("表单预览")])])
+},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "weui-form-preview__hd"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__item"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__label"
+  }, [_vm._v("付款金额")]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__value_in-hd"
+  }, [_vm._v("¥2400.00")])])])
+},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "weui-form-preview__bd"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__item"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__label"
+  }, [_vm._v("商品")]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__value"
+  }, [_vm._v("电动打蛋机")])]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__item"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__label"
+  }, [_vm._v("标题标题")]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__value"
+  }, [_vm._v("名字名字名字")])]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__item"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__label"
+  }, [_vm._v("标题标题")]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__value"
+  }, [_vm._v("很长很长的名字很长很长的名字很长很长的名字很长很长的名字很长很长的名字")])])])
+},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "weui-form-preview__hd"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__label"
+  }, [_vm._v("付款金额")]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__value_in-hd"
+  }, [_vm._v("¥2400.00")])])
+},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "weui-form-preview__bd"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__item"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__label"
+  }, [_vm._v("商品")]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__value"
+  }, [_vm._v("电动打蛋机")])]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__item"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__label"
+  }, [_vm._v("标题标题")]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__value"
+  }, [_vm._v("名字名字名字")])]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__item"
+  }, [_c('div', {
+    staticClass: "weui-form-preview__label"
+  }, [_vm._v("标题标题")]), _vm._v(" "), _c('div', {
+    staticClass: "weui-form-preview__value"
+  }, [_vm._v("很长很长的名字很长很长的名字很长很长的名字很长很长的名字很长很长的名字")])])])
+}]
+render._withStripped = true
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-67039b9c", esExports)
+  }
+}
+
+/***/ }),
+
+/***/ 47:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_template_compiler_index_id_data_v_67039b9c_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(191);
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(154)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+
+/* template */
+
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-67039b9c"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_script_index_0_index_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_template_compiler_index_id_data_v_67039b9c_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_mpvue_loader_1_0_9_mpvue_loader_lib_selector_type_template_index_0_index_vue__["a" /* default */],
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src/pages/preview/index.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-67039b9c", Component.options)
+  } else {
+    hotAPI.reload("data-v-67039b9c", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 83:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(47);
+
+
+
+var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MODULE_1__index__["a" /* default */]);
+app.$mount();
+
+/***/ })
+
+},[83]);
+//# sourceMappingURL=main.js.map

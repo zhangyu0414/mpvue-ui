@@ -32,7 +32,7 @@ export default {
       columnTwo: []
     }
   },
-  mounted () {
+  created () {
     this._initPicker()
   },
   methods: {
@@ -75,6 +75,8 @@ export default {
     },
     _initPicker () {
       let _this = this
+      // _this.columuOne = []
+      // _this.columnTwo = []
       let mulLinkAgeArray = this.mulLinkAgeArray
       for (let i = 0; i < mulLinkAgeArray.length; i++) {
         _this.columuOne.push(mulLinkAgeArray[i].label)

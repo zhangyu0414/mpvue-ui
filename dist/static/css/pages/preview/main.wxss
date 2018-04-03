@@ -1,2 +1,5 @@
 @import "/static/css/vendor.wxss";
-.weui-form-preview.data-v-67039b9c{margin-bottom:50rpx}
+
+.weui-form-preview.data-v-67039b9c {
+  margin-bottom: 50rpx;
+}
