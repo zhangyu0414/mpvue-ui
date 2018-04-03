@@ -23,7 +23,7 @@
 
 ``` bash
 1. git clone
-git clone https://github.com/KuangPF/wxapp-vue.git
+git clone https://github.com/zhangyu0414/mpvue-ui.git
 
 2. 安装依赖
 npm install (cnpm install)
