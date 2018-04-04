@@ -21,18 +21,18 @@ var autoOpenBrowser = !!config.dev.autoOpenBrowser
 // https://github.com/chimurai/http-proxy-middleware
 var proxyTable = config.dev.proxyTable
 
-var app = express()
+// var app = express()
 // var apiRoutes = express.Router()
-// fly.interceptors.request.use((config, promise) => {
-//   // 给所有请求添加自定义header
-//   config.headers['referer'] = 'http://c.y.qq.com'
-//   config.headers['host'] = 'c.y.qq.com'
-//   return config
-// })
+
 // apiRoutes.get('/getDiscList', function (req, res) {
 //   var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
 
-//   fly.get(url, req.query
+//   fly.get(url, req.query, {
+//     header: {
+//       referer: 'http://c.y.qq.com',
+//       host: 'c.y.qq.com'
+//     }
+//   }
 //   ).then((response) => {
 //     res.json(response.data)
 //   }).catch((err) => {

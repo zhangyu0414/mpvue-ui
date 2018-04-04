@@ -25,8 +25,8 @@ export default new Vuex.Store({
       storage: {
         getItem: key => wx.getStorageSync(key),
         // Please see https://github.com/js-cookie/js-cookie#json, on how to handle JSON.
-        setItem: (key, value) => wx.setStorageSync(key, value, { expires: 3, secure: true }),
-        removeItem: key => wx.clearStorage(key)
+        setItem: (key, value) => wx.setStorageSync(key, value),
+        removeItem: key => wx.clearStorage()
       }
     })
   ]

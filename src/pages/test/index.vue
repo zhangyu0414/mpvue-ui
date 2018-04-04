@@ -1,5 +1,5 @@
 <template>
-  <div class="nav" v-model.lazy="select">
+    <div class="nav" v-model.lazy="select">
         <navigator tag="div" class="tab-item" url="/pages/slider/main">
             <div class="tab-icon home"></div>
             <span class="tab-link">首页</span>

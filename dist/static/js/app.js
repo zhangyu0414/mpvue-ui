@@ -98,10 +98,10 @@ var state = {
       },
       // Please see https://github.com/js-cookie/js-cookie#json, on how to handle JSON.
       setItem: function setItem(key, value) {
-        return wx.setStorageSync(key, value, { expires: 3, secure: true });
+        return wx.setStorageSync(key, value);
       },
       removeItem: function removeItem(key) {
-        return wx.clearStorage(key);
+        return wx.clearStorage();
       }
     }
   })]

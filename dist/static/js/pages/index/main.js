@@ -314,18 +314,12 @@ if (false) {(function () {
 
 var request = new __WEBPACK_IMPORTED_MODULE_3_flyio___default.a();
 
-// import axios from 'axios'
-
-// export function getRecommend () {
-//   const url = 'https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg'
-
-//   const data = Object.assign({}, commonParams, {
-//     platform: 'h5',
-//     uin: 0,
-//     needNewCode: 1
-//   })
-//   return jsonp(url, data, options)
-// }
+// request.interceptors.request.use((config, promise) => {
+//   // 给所有请求添加自定义header
+//   config.headers['referer'] = 'http://c.y.qq.com'
+//   config.headers['host'] = 'c.y.qq.com'
+//   return config
+// })
 
 function getDiscList() {
   var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg';
@@ -341,7 +335,12 @@ function getDiscList() {
     rnd: Math.random(),
     format: 'json'
   });
-  return request.get(url, data).then(function (d) {
+  return request.get(url, data, {
+    header: {
+      referer: 'http://c.y.qq.com',
+      host: 'c.y.qq.com'
+    }
+  }).then(function (d) {
     // 输出请求数据
     console.log(d.data);
     // 输出响应头
@@ -354,32 +353,6 @@ function getDiscList() {
 
   // })
 }
-
-// export function getSongList (disstid) {
-//   const url = '/api/getSongList'
-
-//   const data = Object.assign({}, commonParams, {
-//     disstid,
-//     uin: 0,
-//     type: 1,
-//     json: 1,
-//     platform: 'h5',
-//     utf8: 1,
-//     onlysong: 0,
-//     nosign: 1,
-//     needNewCode: 1,
-//     _: 1499739323697,
-//     pic: 500,
-//     new_format: 1,
-//     format: 'json'
-//   })
-
-//   return axios.get(url, {
-//     params: data
-//   }).then((res) => {
-//     return Promise.resolve(res.data)
-//   })
-// }
 
 /***/ }),
 

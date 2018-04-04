@@ -1,4 +1,4 @@
-// 请求数据 flyio
+// 请求数据 flyio  https://wendux.github.io/dist/#/doc/flyio/wx
 import wx from 'wx'
 import Fly from 'flyio'
 
