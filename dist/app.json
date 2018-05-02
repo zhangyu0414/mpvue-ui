@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/indexx/main",
+    "pages/index/main",
     "pages/actionsheet/main",
     "pages/article/main",
     "pages/badge/main",
@@ -13,7 +13,7 @@
     "pages/gallery/main",
     "pages/grid/main",
     "pages/icons/main",
-    "pages/index/main",
+    "pages/indexx/main",
     "pages/input/main",
     "pages/list/main",
     "pages/loadmore/main",

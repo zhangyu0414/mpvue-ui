@@ -1,5 +1,4 @@
-// import jsonp from '@/common/js/jsonp'
-import {commonParams} from './config'
+// import {commonParams} from './config'
 import Fly from 'flyio'
 
 const request = new Fly()
@@ -12,21 +11,15 @@ const request = new Fly()
 // })
 
 export function getDiscList () {
-  const url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
+  // const url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
+  const url = 'https://xingzuo.dayuxinmeiti.cn/wxapp/xingzuo/getLuck'
 
-  const data = Object.assign({}, commonParams, {
-    platform: 'yqq',
-    hostUin: 0,
-    sin: 0,
-    ein: 29,
-    sortId: 5,
-    needNewCode: 0,
-    categoryId: 10000000,
-    rnd: Math.random(),
-    format: 'json'
+  const data = Object.assign({}, {}, {
+    consName: '白羊座',
+    type: 'today'
   })
   return request.get(url, data, {
-    header: {
+    headers: {
       referer: 'http://c.y.qq.com',
       host: 'c.y.qq.com'
     }
@@ -37,10 +30,5 @@ export function getDiscList () {
     console.log(d.header)
     return Promise.resolve(d.data)
   })
-  // axios.get(url, {
-  //   params: data
-  // }).then((res) => {
-
-  // })
 }
 

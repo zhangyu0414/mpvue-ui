@@ -220,7 +220,7 @@ if (false) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return commonParams; });
+/* unused harmony export commonParams */
 /* unused harmony export options */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ERR_OK; });
 var commonParams = {
@@ -303,16 +303,14 @@ if (false) {(function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_promise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_promise__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_flyio__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_flyio___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_flyio__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_flyio__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_flyio___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_flyio__);
 
 
-// import jsonp from '@/common/js/jsonp'
+// import {commonParams} from './config'
 
 
-
-var request = new __WEBPACK_IMPORTED_MODULE_3_flyio___default.a();
+var request = new __WEBPACK_IMPORTED_MODULE_2_flyio___default.a();
 
 // request.interceptors.request.use((config, promise) => {
 //   // 给所有请求添加自定义header
@@ -322,21 +320,15 @@ var request = new __WEBPACK_IMPORTED_MODULE_3_flyio___default.a();
 // })
 
 function getDiscList() {
-  var url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg';
+  // const url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
+  var url = 'https://xingzuo.dayuxinmeiti.cn/wxapp/xingzuo/getLuck';
 
-  var data = __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign___default()({}, __WEBPACK_IMPORTED_MODULE_2__config__["b" /* commonParams */], {
-    platform: 'yqq',
-    hostUin: 0,
-    sin: 0,
-    ein: 29,
-    sortId: 5,
-    needNewCode: 0,
-    categoryId: 10000000,
-    rnd: Math.random(),
-    format: 'json'
+  var data = __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign___default()({}, {}, {
+    consName: '白羊座',
+    type: 'today'
   });
   return request.get(url, data, {
-    header: {
+    headers: {
       referer: 'http://c.y.qq.com',
       host: 'c.y.qq.com'
     }
@@ -347,11 +339,6 @@ function getDiscList() {
     console.log(d.header);
     return __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_promise___default.a.resolve(d.data);
   });
-  // axios.get(url, {
-  //   params: data
-  // }).then((res) => {
-
-  // })
 }
 
 /***/ }),

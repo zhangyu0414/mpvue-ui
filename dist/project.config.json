@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.93",
 	"appid": "touristappid",
-	"projectname": "12321312312",
+	"projectname": "mpv",
 	"condition": {
 		"search": {
 			"current": -1,
